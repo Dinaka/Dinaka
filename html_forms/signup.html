@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <form method="POST" action="signup.php">
+        <div>
+        <fieldset>
+            <legend>Signup Form:</legend>
+            <label for="firstname">Firstname</label><br>
+            <input type="text" name="firstname" id="firstname" placeholder="Your name..."><br>
+            
+            <label for="lastname">Lastname</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Your lastname..."><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter email..."><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter password..."><br>
+
+            <label for="password">Confirm Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Confirm password..."><br>
+
+            <label for="tel">Phone Number</label><br>
+            <input type="tel" name="tel" id="tel" placeholder="Your mobile no. ..."><br>
+
+            <label for="gender">Gender:</label><br>
+            <input class="container" type="radio" name="gender" value="male">Male<br>
+                
+            <input class="container" type="radio" name="gender" value="female"checked >Female<br>
+                
+            <input class="container" type="radio" name="gender" value="other">Other<br>
+                
+
+            <label for="country">Country:</label><br>
+            <input class="container" type="checkbox" name="country" value="nigeria"checked>Nigeria<br>
+            <input class="container" type="checkbox" name="country" value="us">United States<br>
+            <input class="container" type="checkbox" name="country" value="canada">Canada<br>
+            <input class="container" type="checkbox" name="country" value="australia">Australia<br>
+            <input class="container" type="checkbox" name="country" value="malawi">Malawi<br>
+            <input class="container" type="checkbox" name="country" value="germany">Germany<br>
+            <input class="container" type="checkbox" name="country" value="uk">United Kingdom<br>
+            <input class="container" type="checkbox" name="country" value="ghana">Ghana<br>
+
+            <input type="reset" name="cancel" value="Cancel">
+            <input type="submit" name="signup" value="Sign Up">
+
+        </fieldset>
+        </div>
+    </form>
