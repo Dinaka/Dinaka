@@ -1,0 +1,61 @@
+.jumbotron {
+    text-align: center;
+    
+}
+
+.email {
+    height: 50px;
+    width: 30%;
+    padding: 7px 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-right: 387px;
+    background-color: antiquewhite;
+}
+
+.content {
+    
+    color: whitesmoke;
+    padding: 7px 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-right: 0px;
+    background-color: rgb(247, 218, 93);
+}
+
+a {
+    font-size: 30px; 
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-right: 65px;
+}
+
+h2 {
+    text-align: center;
+    padding-right: 65px;
+}
+
+.submit{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(22, 114, 37);
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 20px;
+}
+
+.form {
+    margin-top: -50px;
+}
+
+th {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
